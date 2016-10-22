@@ -1,0 +1,11 @@
+#include<stdio.h>
+void main(){
+int n,i,giaiThua=1;
+printf("Nhap so:\n");
+scanf("%d",&n);
+for(i=n;i>=1;i--)
+{
+    giaiThua*=i;
+}
+printf("%d!=%d",n,giaiThua);
+}

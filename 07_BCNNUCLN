@@ -6,8 +6,7 @@ scanf("%d%d",&m,&n);
 int UCLN(int a,int b)
 {
     if(a==0)
-        if(b!=0)
-            return b;
+        return b;
     else
         if(b==0)
             return a;
